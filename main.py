@@ -24,7 +24,7 @@ def find_word():
 def begin_game(): 
     
 #Die Funktion definiert wie das Spiel gestartet wird. Es werden globale Variablen festgelegt, t für die verbrauchten Versuche, l für die richtigen Buchstaben und w für die Falschen.
-#Der Variable word wird das zufällige Wort der find_word Funktion zugewiesen und mithilfe der while Schleife werden * für die Hervorhebung des Spiels generiert,
+#Der Variable word wird das zufällige Wort der find_word Funktion zugewiesen und mithilfe der while Schleife werden * für Buchstaben des Wortes ersetzt,
 #welche sich der Länge des zu ratenden Wortes anpassen.
 
     global t
