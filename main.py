@@ -1,13 +1,12 @@
 # -*- coding: utf-8 -*-
 
 import random
+import string
 
 t = 0 # Anzahl Versuche.
 l = [] # Richtig geratene Buchstaben.
 w = [] # Falsch geratene Buchstaben.
 
-#to do: checken, ob die eingabe länger als 1 Buchstabe ist
-#to do: checken, ob umlaut/zahl eingegeben wurde
 #to do: checken, ob nichts eingegeben wurde
 #Bildschirm löschen: os.system("cls"), import os
 #from time import sleep, sleep(2)
@@ -55,6 +54,10 @@ def quizmaster(word):
 			
 			if guess in w:
 				print "\n Dummy, you already tried this one! \n"
+			
+			elif guess not in string.ascii_uppercase:
+                                print "\n Dummy, only characters of the alphabet! \n"
+			
 			else:
 				t += 1
 				f = 11 - t
