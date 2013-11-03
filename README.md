@@ -6,8 +6,6 @@ Erstes Projekt für das Projektseminar Informetrie im Wintersemester 13/14.
 TO DO:
 
 - PEP-008 checken!
-- Fehleingaben vermeiden und Nachricht zurückgeben
-- Fehler und Seiteneffekte testen
 - Dokumentation mit Sphinx
 - Abgabe
 
@@ -16,6 +14,8 @@ TO DO:
 
 ERLEDIGT:
 
+- Fehler und Seiteneffekte testen
+- Fehleingaben vermeiden und Nachricht zurückgeben
 - Externe Textdatei mit 50+ Wörtern
 - Datei wird eingelesen
 - Zufallswort
