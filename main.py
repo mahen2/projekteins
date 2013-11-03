@@ -71,7 +71,7 @@ def quizmaster(word):
 			f = 11 - t
 			l.append(guess) 
 			print "\n Good choice! Please continue... you may try %i more times. \n" %f
-			
+
 		else:
 			
 #Falls der Buchstabe schon einmal eingegeben wurde, dann kommt folgende Fehlermeldung. 
@@ -82,8 +82,8 @@ def quizmaster(word):
 #Falls der Buchstabe nicht zum Alphabet gehört, dann kommt folgende Fehlermeldung.			
 			
 			elif guess not in string.ascii_uppercase:
-                                print "\n Dummy, only characters of the alphabet! \n"
-			
+				print "\n Dummy, only characters of the alphabet! \n"
+
 #Falls der geratene Buchstabe falsch ist, erhöht sich wieder die Anzahl der verbrauchten Versuche t um 1 und wird den verbleibenden Versuchen f abgezogen.
 #Nur wird jetzt der Buchstabe der Liste der falsch geratenen Buchstaben hinzugefügt.
 
@@ -99,7 +99,7 @@ def quizmaster(word):
 
 
 def show_word(word):
-	
+
 #Wenn show_word aufgerufen wird, gibt das Programm das zu erratene Wort aus. Die bisher nicht erratenen Buchstaben werden durch Sternchen ersetzt.
 #Hierfür werden die Variablen i (Index), l (Liste mit erratenen korrekten Buchstaben), c (Liste mit den ausgegebenen Zeichen) und s (String "'*") benutzt.
 #Die Funktion show_word geht der Länge (n) des Wortes nach jeden Index (0-n) durch und überprüft, ob sich an dieser Stelle ein Buchstabe befindet, welcher bereits vom Nutzer erraten wurde.
